@@ -9,5 +9,19 @@ namespace Portfolio.Controllers
     {
       return "This is my index!";
     }
+
+    [HttpGet]
+    [Route("projects")]
+    public string Projects()
+    {
+      return "These are my projects";
+    }
+
+    [HttpGet]
+    [Route("contact")]
+    public string Contact()
+    {
+      return "This is my Contact!";
+    }
   }
 }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dojo Survey Index</title>
+  <link rel="stylesheet" href="~/css/bootstrap.css">
+</head>
+<body>
+<main class="container mt-5">
+  <h3>Submitted Info</h3>
+  <div class="row t-5">
+    <div class="col-sm-6"><p>Name</p></div>
+    <div class="col-sm-6"><p>@ViewBag.Name</p></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6"><p>Dojo Location</p></div>
+    <div class="col-sm-6"><p>@ViewBag.Location</p></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6"><p>Favorite Language</p></div>
+    <div class="col-sm-6"><p>@ViewBag.Language</p></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6"><p>Comment</p></div>
+    <div class="col-sm-6"><p>@ViewBag.Comment</p></div>
+  </div>
+  <div class="float-right">
+    <form action="/">
+        <button type="submit">Go Back</button>
+    </form>
+  </div>
+</main>
+</body>
+</html>

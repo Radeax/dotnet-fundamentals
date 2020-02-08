@@ -20504,6 +20504,11 @@
       "FilePath": "c:\\Users\\Radeax\\Web Dev\\dotnet-fundamentals\\DojoSurvey\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Radeax\\Web Dev\\dotnet-fundamentals\\DojoSurvey\\Views\\Home\\Result.cshtml",
+      "TargetPath": "Views\\Home\\Result.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

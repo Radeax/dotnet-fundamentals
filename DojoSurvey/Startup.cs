@@ -29,6 +29,7 @@ namespace DojoSurvey
       }
 
       app.UseRouting();
+      app.UseStaticFiles();
 
       app.UseEndpoints(endpoints =>
       {

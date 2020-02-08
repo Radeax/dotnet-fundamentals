@@ -20499,6 +20499,12 @@
     "CSharpLanguageVersion": 800
   },
   "RootNamespace": "DojoSurvey",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\Radeax\\Web Dev\\dotnet-fundamentals\\DojoSurvey\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }
